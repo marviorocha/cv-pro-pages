@@ -1,8 +1,8 @@
 .logo svg {
     text-decoration:none;
     border:0;
-    width : 285px;
-    height : 113px;
-   
-     
+    width : 100%;
+    height : 115px;
+    padding: 15px;
+      
 }
