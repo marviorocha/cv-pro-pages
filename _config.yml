@@ -1,0 +1,70 @@
+# SITE CONFIGURATION
+title: CurriculumPro.Me | Simplificando sua vida! # your site title
+author: MarvioRocha # You :P
+description: > # Meta description of Homepage
+  Curriculum Pro é um projeto voltado para pessoas que desejam simplificar a meneira como envia seu cv para as empresas.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://curriculumpro.me/" # the base hostname & protocol for your site, e.g. http://example.com
+
+# SEO PLUGIN
+social:
+  name: Your Name
+  links:
+    - https://twitter.com/curriculumpro
+    - https://www.facebook.com/curriculumpro
+    - https://www.linkedin.com/in/BenBalter
+    - https://plus.google.com/+BenBalter
+    - https://github.com/marviorocha/curriculumpro
+    - https://keybase.io/benbalter
+
+# THEME SETTINGS
+navigation: # Navigation links
+  - {name: 'Home', link: '/'}
+  - {name: 'Episódios', link: '/categories'}
+  - {name: 'Fale Conosco', link: '/contact'}
+
+tagline: >
+  Um projeto para simplificar a vida das pessoas através de curriculum e portifólio digital
+
+hero_img: posts/ruben-santander-69158_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
+
+email: marvio@curriculumpro.me # email for form submission
+
+twitter_username: curriculumprome # replace with your_twitter_username or comment to remove link from footer
+github_username:  marviorocha/curriculumpro # replace with your_github_username or comment to remove link from footer
+instagram_username: curriculumprome # replace with your_instagram_username or comment to remove link from footer
+
+disqus:
+  shortname: curriculumpro-me # to enable comments replace with your_disqus_shortname
+
+# google_tag_manager: GTM-XXXXXXX # Uncomment to enable GTM. Replace GTM-XXXXXXX with your GTM container ID
+
+service_worker: true
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge # or pygments or null
+# theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
+exclude:
+  - README.md
+  - node_modules
+  - script
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.jpg
+
+include: ['_pages']
+permalink: /:title/
+
+compress_html:
+  clippings: all
+
+ 
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
