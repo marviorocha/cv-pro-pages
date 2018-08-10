@@ -3,7 +3,7 @@ title: CurriculumPro.Me | Simplificando sua vida! # your site title
 author: MarvioRocha # You :P
 description: > # Meta description of Homepage
   Curriculum Pro é um projeto voltado para pessoas que desejam simplificar a meneira como envia seu cv para as empresas.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://curriculumpro.me/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SEO PLUGIN
